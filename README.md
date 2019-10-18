@@ -18,8 +18,8 @@ Debian / Ubuntu 64bit.
 
 CentOS/Other Unix should be supported!
 
-### Version of Kernel:
-Kernel v3.0-NFP & Kernel v3.0-LLY
+### Version of Kernel (Release):
+[Download - Release](https://github.com/MikkelDK/GameServerKernel/releases/download/3.0-1000hz/Kernelv3.zip)
 
 ### What does NFP/LLY means?
 LLY => **Low-Latency** (Stable Tickrate & High Performance for your **GAMESERVER**)
