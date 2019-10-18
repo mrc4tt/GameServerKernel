@@ -9,15 +9,17 @@ This repo will be used for support/provide GameServerKernel for Linux. with 1000
 Script to your linuxserver:
 [/root/script.sh](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/script.sh)
 
+apt-get install tuned && apt-get install tuned-adm 
+
+tuned-adm profile latency-performance **//NOTE: You don't need tuned-adm, if you are using Ryzen 7 3700X!**
+
 ### Unix Support:
 Debian / Ubuntu 64bit.
 
 CentOS/Other Unix should be supported!
 
 ### Version of Kernel:
-Kernel v3.0-NFP
-
-Kernel v3.0-LLY
+Kernel v3.0-NFP & Kernel v3.0-LLY
 
 ### What does NFP/LLY means?
 LLY => **Low-Latency** (Stable Tickrate & High Performance for your **GAMESERVER**)
@@ -25,7 +27,7 @@ LLY => **Low-Latency** (Stable Tickrate & High Performance for your **GAMESERVER
 NFP => **No-Fored-Preemption** (Run as many you can as possible on your hardware!)
 
 ### Screenshots of Net_Graphs:
-If you are using LLY config - It will be looks between: 0.000-0.900 VAR (Depends how many slots is setup to be used!)
+If you are using **LLY config** - It will be looks between: **0.000-0.900 VAR** (Depends how many slots is setup to be used!)
 1st screenshot is from i9-9900K (No matter, about you are using Ryzen 7 3700X/i9-9900K)
 ![This is happens if server is running with Ryzen 7 3700X/i9-9900K](https://i.gyazo.com/c1d31dcfad0f616b7c66df09693a94c7.jpg)
 
