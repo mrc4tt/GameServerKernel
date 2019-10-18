@@ -33,8 +33,10 @@ If you are using LLY config - It will be looks between: 0.000-0.900 VAR (Depends
 ![second](https://i.gyazo.com/e615db5f3b73c14e6ed16d42cee96e1b.jpg)
 
 **Overall, depends CPU so it's _POSSIBLE_ to run 0.000-0.001 if it's match/retake/scrim servers!
-If you are planned to host 25slots FFA/DM Server. it can jump between: 0.000-0.900**
 
-**It's depends about you are using:
-tuned-adm profile latency-performance OR nothing and only (Kernel + Script.sh - with 1000HZ!)
+**If you are planned to host 25slots FFA/DM Server. it can jump between: 0.000-0.900**
+
+**It's depends about you are using:**
+
+**tuned-adm profile latency-performance OR nothing and only (Kernel + Script.sh - with 1000HZ!)
 If you want to run DM Server with 32slots (it's recommend to compile with 100HZ! - I don't have tested 100HZ kernel!)**
