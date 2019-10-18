@@ -1,6 +1,10 @@
 ### GameServerKernel / Scripts
 This repo will be used for support/provide GameServerKernel for Linux. with 1000HZ &amp; 100HZ
-.config will be available
+
+#### .config
+[.config file here](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/config)
+
+**Remember to rename "config" to ".config" on your server, if you want to re-compile with other HZ (E.g: 100HZ!)**
 
 ### Rates / Script to gameserver:
 (**This rates is for CSGO Server!**) - Test it out, it's recommend to test:
@@ -34,7 +38,7 @@ If you are using **LLY config** - It will be looks between: **0.000-0.900 VAR** 
 2nd screenshot is from i9-9900K (No matter, about you are using Tuned-adm profile latency-performance!)
 ![second](https://i.gyazo.com/e615db5f3b73c14e6ed16d42cee96e1b.jpg)
 
-**Overall, depends CPU so it's _POSSIBLE_ to run 0.000-0.001 if it's match/retake/scrim servers!
+**Overall, depends CPU so it's _POSSIBLE_ to run 0.000-0.001 if it's match/retake/scrim servers!**
 
 **If you are planned to host 25slots FFA/DM Server. it can jump between: 0.000-0.900**
 
