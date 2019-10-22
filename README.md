@@ -1,7 +1,7 @@
 ## GameServerKernel / Scripts
 This repo will be used for support/provide GameServerKernel for Linux. with 1000HZ &amp; (**Will be created later(no ETA): 100HZ**)
 
-### [.config file here](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/config)
+### [.config file here - 1000HZ](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/config)
 
 **Remember to rename "config" to ".config" on your server, if you want to re-compile with other HZ (E.g: 100HZ!)**
 
