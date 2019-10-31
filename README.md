@@ -11,15 +11,15 @@ This repo will be used for support/provide GameServerKernel for Linux. with 1000
 
 Script to your linuxserver:
 [/root/script.sh](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/script.sh)
-
-apt-get install tuned && apt-get install tuned-adm 
-
+```
+apt-get install tuned && apt-get install tuned-adm
+```
 tuned-adm profile latency-performance **//NOTE: You don't need tuned-adm, if you are using Ryzen 7 3700X!**
 
 ### Unix Support:
 Debian / Ubuntu 64bit.
 
-CentOS/Other Unix should be supported!
+CentOS/Other Unix should be supported! **Not tested!**
 
 ### Version of Kernel (Release): [Download](https://github.com/MikkelDK/GameServerKernel/releases/download/3.0-1000hz/Kernelv3.zip) - (1000HZ)
 
