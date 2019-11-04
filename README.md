@@ -43,8 +43,7 @@ LLY => **Low-Latency** (Stable Tickrate & High Performance for your **GAMESERVER
 NFP => **No-Fored-Preemption** (Run as many gs you can as possible on your hardware!)
 
 ### Screenshots of Net_Graphs:
-If you are using **LLY config** - It will be looks between: **0.000-0.900 VAR** (With tuned-adm profile latency-performance)
-1st screenshot is from i9-9900K
+If you are using **LLY config** - It will be looks between: **0.000-0.900 VAR** (**With tuned-adm profile latency-performance**)
 ![This is happens if server is running with Ryzen 7 3700X/i9-9900K](https://i.gyazo.com/c1d31dcfad0f616b7c66df09693a94c7.jpg)
 
 2nd screenshot is from i9-9900K (without tuned-adm profile latency-performance!)
