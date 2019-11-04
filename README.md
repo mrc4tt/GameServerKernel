@@ -1,5 +1,5 @@
 ## GameServerKernel / Scripts
-This repo will be used for support/provide GameServerKernel for Linux - **1000HZ**
+This repo will be used for support/provide GameServerKernel for Linux - **1000HZ & 100HZ**
 
 ### [.config file here - 1000HZ](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/config)
 
@@ -22,6 +22,8 @@ Debian / Ubuntu 64bit.
 CentOS/Other Unix should be supported! **Not tested!**
 
 ### Version of Kernel (Release): [Download](https://github.com/MikkelDK/GameServerKernel/releases/download/3.0-1000hz/Kernelv3.zip) - (1000HZ)
+
+### Version of Kernel (Release): [Download](https://github.com/MikkelDK/GameServerKernel/releases/download/3.0-100hz/Kernelv3.zip) - (100HZ)
 
 ### What does NFP/LLY means?
 LLY => **Low-Latency** (Stable Tickrate & High Performance for your **GAMESERVER**)
