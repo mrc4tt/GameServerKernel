@@ -22,6 +22,7 @@ $ tuned-adm profile latency-performance
 | ------ | ------ |
 | Debian | 9 |
 | Debian | 10 |
+| Debian | 11(Beta) |
 | Ubuntu | 18.10 |
 | Ubuntu | 19.04 |
 | Ubuntu | 19.10 |
@@ -49,6 +50,6 @@ If you are using **LLY config** - It will be looks between: **0.000-0.900 VAR** 
 2nd screenshot is from i9-9900K (without tuned-adm profile latency-performance!)
 ![second](https://i.gyazo.com/e615db5f3b73c14e6ed16d42cee96e1b.jpg)
 
-**Overall, depends CPU so it's _POSSIBLE_ to run 0.000-0.001 if it's match/retake/scrim servers!**
+**Overall, depends CPU so it's _POSSIBLE_ to run 0.000-0.001 if it's match/retake/scrim servers!
 
 **If you are planned to host 32slots FFA/DM Server. it can jump between: 0.000-0.900**
