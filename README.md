@@ -11,26 +11,30 @@ This repo will be used for support/provide GameServerKernel for Linux - **1000HZ
 
 Script to your linuxserver:
 [/root/script.sh](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/script.sh)
+
+```sh
+$ apt-get install tuned && apt-get install tuned-adm
+$ tuned-adm profile latency-performance
 ```
-apt-get install tuned && apt-get install tuned-adm
-```
-tuned-adm profile latency-performance **//NOTE: You don't need tuned-adm, if you are using Ryzen 7 3700X/3800X/3900X**
 
 ### Unix Support:
 Debian / Ubuntu 64bit.
 
 CentOS/Other Unix should be supported! **Not tested!**
 
-## (Release): [Download](https://github.com/MikkelDK/GameServerKernel/releases/download/3.0-1000hz/Kernelv3.zip) - (1000HZ - Kernel: 5.2.14 with LowLatency & NFP)
+# Downloads
 
-## (Release): [Download](https://github.com/MikkelDK/GameServerKernel/releases/download/v3.1-1000hz/kernelv3.1.zip) - (1000HZ - Kernel: 5.3.8 - LowLatency Only!)
-
-## (Release): [Download](https://github.com/MikkelDK/GameServerKernel/releases/download/v3.0-100hz/Kernelv3.0-LLY-100hz.zip) - (100HZ LowLatency Only - Kernel: 5.3.8)
+| Kernel | Information |
+| ------ | ------ |
+| [5.2.14](https://github.com/MikkelDK/GameServerKernel/releases/download/3.0-1000hz/Kernelv3.zip) | 1000HZ - LowLatency & NFP) |
+| [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/download/v3.1-1000hz/kernelv3.1.zip) | 1000HZ - LowLatency Only |
+| [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/download/v3.0-100hz/Kernelv3.0-LLY-100hz.zip) | 100HZ - Lowlatency Only |
+| [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/download/v3.1-100hz/100hz-nfp.zip)| 100HZ - NFP Only |
 
 ### What does NFP/LLY means?
-LLY => **Low-Latency** (Stable Tickrate & High Performance for your **GAMESERVER**) **ONLY 100HZ & 1000HZ having LLY!**
+LLY => **Low-Latency** (Stable Tickrate & High Performance for your **GAMESERVER**)
 
-NFP => **No-Fored-Preemption** (Run as many gs you can as possible on your hardware!) **ONLY 1000HZ having NFP!**
+NFP => **No-Fored-Preemption** (Run as many gs you can as possible on your hardware!)
 
 ### Screenshots of Net_Graphs:
 If you are using **LLY config** - It will be looks between: **0.000-0.900 VAR** (Depends how many slots is setup to be used!)
