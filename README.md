@@ -23,12 +23,12 @@ CentOS/Other Unix should be supported! **Not tested!**
 
 ### Version of Kernel (Release): [Download](https://github.com/MikkelDK/GameServerKernel/releases/download/3.0-1000hz/Kernelv3.zip) - (1000HZ)
 
-### Version of Kernel (Release): [Download](https://github.com/MikkelDK/GameServerKernel/releases/download/3.0-100hz/Kernelv3.zip) - (100HZ)
+### Version of Kernel (Release): [Download](https://github.com/MikkelDK/GameServerKernel/releases/download/v3.0-100hz/Kernelv3.0-LLY-100hz.zip) - (100HZ)
 
 ### What does NFP/LLY means?
-LLY => **Low-Latency** (Stable Tickrate & High Performance for your **GAMESERVER**)
+LLY => **Low-Latency** (Stable Tickrate & High Performance for your **GAMESERVER**) **ONLY 100HZ & 1000HZ having LLY!**
 
-NFP => **No-Fored-Preemption** (Run as many gs you can as possible on your hardware!)
+NFP => **No-Fored-Preemption** (Run as many gs you can as possible on your hardware!) **ONLY 1000HZ having NFP!**
 
 ### Screenshots of Net_Graphs:
 If you are using **LLY config** - It will be looks between: **0.000-0.900 VAR** (Depends how many slots is setup to be used!)
