@@ -21,9 +21,9 @@ Debian / Ubuntu 64bit.
 
 CentOS/Other Unix should be supported! **Not tested!**
 
-### Version of Kernel (Release): [Download](https://github.com/MikkelDK/GameServerKernel/releases/download/3.0-1000hz/Kernelv3.zip) - (1000HZ - Kernel: 5.2.14)
+### (Release): [Download](https://github.com/MikkelDK/GameServerKernel/releases/download/3.0-1000hz/Kernelv3.zip) - (1000HZ - Kernel: 5.2.14)
 
-### Version of Kernel (Release): [Download](https://github.com/MikkelDK/GameServerKernel/releases/download/v3.0-100hz/Kernelv3.0-LLY-100hz.zip) - (100HZ - Kernel: 5.3.8)
+### (Release): [Download](https://github.com/MikkelDK/GameServerKernel/releases/download/v3.0-100hz/Kernelv3.0-LLY-100hz.zip) - (100HZ LowLatency Only - Kernel: 5.3.8)
 
 ### What does NFP/LLY means?
 LLY => **Low-Latency** (Stable Tickrate & High Performance for your **GAMESERVER**) **ONLY 100HZ & 1000HZ having LLY!**
