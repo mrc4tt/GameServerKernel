@@ -36,7 +36,7 @@ $ tuned-adm profile latency-performance
 | [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/download/v3.1-1000hz/kernelv3.1.zip) | 1000HZ - LowLatency Only |
 | [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/download/v3.0-100hz/Kernelv3.0-LLY-100hz.zip) | 100HZ - Lowlatency Only |
 | [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/download/v3.1-100hz/100hz-nfp.zip)| 100HZ - NFP Only |
-| [5.3.8](#) | 100HZ & 1000HZ - VKP Only |
+| [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/download/vkp-kernel/vpk-kernel.zip) | 100HZ & 1000HZ - VKP Only |
 
 ## What does NFP/LLY/VKP means?
 LLY => **Low-Latency** (Stable Tickrate & High Performance for your **GAMESERVER**)
@@ -46,7 +46,7 @@ NFP => **No-Fored-Preemption** (Run as many gs you can as possible on your hardw
 VKP => **Voluntary Kernel Preemption**
 
 ## Screenshots of Net_Graphs:
-If you are using **LLY config** - It will be looks between: **0.000-0.900 VAR** (**With tuned-adm profile latency-performance**)
+This is a example from a **LLY config** - It will be looks between: **0.000-0.900 VAR** (**With tuned-adm profile latency-performance**) - This is from Ryzen 7 3700X & i9-9900K **(This is tested for 5v5 servers)**
 ![This is happens if server is running with Ryzen 7 3700X/i9-9900K](https://i.gyazo.com/c1d31dcfad0f616b7c66df09693a94c7.jpg)                                                     
 
 2nd screenshot is from i9-9900K (without tuned-adm profile latency-performance!)
@@ -55,3 +55,8 @@ If you are using **LLY config** - It will be looks between: **0.000-0.900 VAR** 
 **Overall, depends CPU so it's _POSSIBLE_ to run 0.000-0.001 if it's match/retake/scrim servers!
 
 **If you are planned to host 32slots FFA/DM Server. it can jump between: 0.000-0.900**
+- You can use this, to test with bots.
+[CODE]
+sv_stressbots 1
+sm_cvar bot_flipbot 1
+[/CODE]
