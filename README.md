@@ -46,12 +46,8 @@ NFP => **No-Fored-Preemption** (Run as many gs you can as possible on your hardw
 VKP => **Voluntary Kernel Preemption**
 
 ## Screenshots of Net_Graphs:
-This is a example from a **LLY config** - It will be looks between: **0.000-0.900 VAR** (**With tuned-adm profile latency-performance**) - This is from Ryzen 7 3700X & i9-9900K **(This is tested for 5v5 servers)**
-![This is happens if server is running with Ryzen 7 3700X/i9-9900K](https://i.gyazo.com/c1d31dcfad0f616b7c66df09693a94c7.jpg)                                                     
-
-2nd screenshot is from i9-9900K (without tuned-adm profile latency-performance!)
-![second](https://i.gyazo.com/e615db5f3b73c14e6ed16d42cee96e1b.jpg)
-
+This is a example from a **LLY config** - It will be looks between: **0.000-0.900 VAR** (**With tuned-adm profile latency-performance**) - This is from Ryzen 7 3700X & i9-9900K **(This is tested for 5v5 servers & retake servers)**
+![This is happens if server is running with Ryzen 7 3700X/i9-9900K](https://i.gyazo.com/c1d31dcfad0f616b7c66df09693a94c7.jpg)                                                    
 **Overall, depends CPU so it's _POSSIBLE_ to run 0.000-0.001 if it's match/retake/scrim servers!
 
 **If you are planned to host 32slots FFA/DM Server. it can jump between: 0.000-0.900**
