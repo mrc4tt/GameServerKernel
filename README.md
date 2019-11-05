@@ -1,11 +1,9 @@
-## GameServerKernel / Scripts
+# GameServerKernel / Scripts
 This repo will be used for support/provide GameServerKernel for Linux - **1000HZ & 100HZ**
 
-### [.config file here - 1000HZ](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/config)
+## [.config file here - 1000HZ](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/config) - Rename  ".config" on your server, if you want to compile your own kernel.
 
-**Remember to rename "config" to ".config" on your server, if you want to re-compile with other HZ (E.g: 100HZ!)**
-
-### Rates / Script to gameserver:
+## Rates / Script to gameserver:
 (**This rates is for CSGO Server!**) - Test it out, it's recommend to test:
 [Rates is here](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/rates.cfg)
 
@@ -38,15 +36,16 @@ $ tuned-adm profile latency-performance
 | [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/download/v3.1-1000hz/kernelv3.1.zip) | 1000HZ - LowLatency Only |
 | [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/download/v3.0-100hz/Kernelv3.0-LLY-100hz.zip) | 100HZ - Lowlatency Only |
 | [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/download/v3.1-100hz/100hz-nfp.zip)| 100HZ - NFP Only |
+| [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/downloads/v3.1-vpk/kernel-vpk.zip) | 100HZ & 1000HZ - VKP Only |
 
-### What does NFP/LLY means?
+## What does NFP/LLY means?
 LLY => **Low-Latency** (Stable Tickrate & High Performance for your **GAMESERVER**)
 
 NFP => **No-Fored-Preemption** (Run as many gs you can as possible on your hardware!)
 
-### Screenshots of Net_Graphs:
+## Screenshots of Net_Graphs:
 If you are using **LLY config** - It will be looks between: **0.000-0.900 VAR** (**With tuned-adm profile latency-performance**)
-![This is happens if server is running with Ryzen 7 3700X/i9-9900K](https://i.gyazo.com/c1d31dcfad0f616b7c66df09693a94c7.jpg)
+![This is happens if server is running with Ryzen 7 3700X/i9-9900K](https://i.gyazo.com/c1d31dcfad0f616b7c66df09693a94c7.jpg)                                                     
 
 2nd screenshot is from i9-9900K (without tuned-adm profile latency-performance!)
 ![second](https://i.gyazo.com/e615db5f3b73c14e6ed16d42cee96e1b.jpg)
