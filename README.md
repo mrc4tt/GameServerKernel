@@ -1,7 +1,7 @@
 # GameServerKernel / Scripts
 This repo will be used for support/provide GameServerKernel for Linux - **1000HZ & 100HZ**
 
-## [.config file here - 1000HZ](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/config) - Rename  ".config" on your server, if you want to compile your own kernel.
+## [config](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/config) - Rename  ".config" on your server, if you want to compile your own kernel.
 
 ## Rates / Script to gameserver:
 (**This rates is for CSGO Server!**) - Test it out, it's recommend to test:
@@ -36,12 +36,14 @@ $ tuned-adm profile latency-performance
 | [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/download/v3.1-1000hz/kernelv3.1.zip) | 1000HZ - LowLatency Only |
 | [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/download/v3.0-100hz/Kernelv3.0-LLY-100hz.zip) | 100HZ - Lowlatency Only |
 | [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/download/v3.1-100hz/100hz-nfp.zip)| 100HZ - NFP Only |
-| [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/downloads/v3.1-vpk/kernel-vpk.zip) | 100HZ & 1000HZ - VKP Only |
+| [5.3.8](#) | 100HZ & 1000HZ - VKP Only |
 
-## What does NFP/LLY means?
+## What does NFP/LLY/VKP means?
 LLY => **Low-Latency** (Stable Tickrate & High Performance for your **GAMESERVER**)
 
 NFP => **No-Fored-Preemption** (Run as many gs you can as possible on your hardware!)
+
+VKP => **Voluntary Kernel Preemption**
 
 ## Screenshots of Net_Graphs:
 If you are using **LLY config** - It will be looks between: **0.000-0.900 VAR** (**With tuned-adm profile latency-performance**)
