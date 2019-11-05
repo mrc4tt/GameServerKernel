@@ -52,7 +52,7 @@ This is a example from a **LLY config** - It will be looks between: **0.000-0.90
 
 **If you are planned to host 32slots FFA/DM Server. it can jump between: 0.000-0.900**
 - You can use this, to test with bots.
-[CODE]
+```code
 sv_stressbots 1
 sm_cvar bot_flipbot 1
-[/CODE]
+```
