@@ -12,7 +12,7 @@ Script to your linuxserver:
 
 ```sh
 $ wget https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/script.sh && ./script.sh
-$ apt-get install tuned && apt-get install tuned-adm
+$ apt-get install tuned
 $ tuned-adm profile latency-performance
 ```
 
