@@ -5,7 +5,7 @@ This repo will be used for support/provide GameServerKernel for Linux - **1000HZ
 
 **I don't have found fix with 25-32slots!** (16-11-2019)
 
-## [config](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/config) - Rename  ".config" on your server, if you want to compile your own kernel.
+## [config](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/config) - Rename to  ".config" on your server, if you want to compile your own kernel!
 
 ## Rates / Script to gameserver:
 (**This rates is for CSGO Server!**) - Test it out, it's recommend to test:
