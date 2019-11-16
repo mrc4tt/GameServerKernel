@@ -1,6 +1,9 @@
 # GameServerKernel / Scripts
 This repo will be used for support/provide GameServerKernel for Linux - **1000HZ & 100HZ**
 
+**NOTE: This is most recommended for match/retake/scrim/pracc - and maybe 20 slots FFA.**
+**I don't have found fix with 25-32slots!** (16-11-2019)
+
 ## [config](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/config) - Rename  ".config" on your server, if you want to compile your own kernel.
 
 ## Rates / Script to gameserver:
@@ -49,10 +52,3 @@ VKP => **Voluntary Kernel Preemption**
 This is a example from a **LLY config** - It will be looks between: **0.000-0.005 VAR** (**With tuned-adm profile latency-performance**) - This is from Ryzen 7 3700X or i9-9900K **(This is tested for 5v5 servers & retake servers)**
 ![screen](https://i.gyazo.com/c1d31dcfad0f616b7c66df09693a94c7.jpg)                                                    
 **Overall, depends CPU so it's _POSSIBLE_ to run 0.000-0.005 if it's match/retake/scrim servers!
-
-**If you are planned to host 32slots FFA/DM Server. it can jump between: 0.000-2.000 (Depends CPU!)**
-- You can use this, to test with bots.
-```code
-sv_stressbots 1
-sm_cvar bot_flipbot 1
-```
