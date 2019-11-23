@@ -25,12 +25,11 @@ $ tuned-adm profile latency-performance
 | ------ | ------ |
 | Debian | 9 |
 | Debian | 10 |
-| Debian | 11(Beta) |
 | Ubuntu | 18.10 |
 | Ubuntu | 19.04 |
 | Ubuntu | 19.10 |
 
-**CentOS/Other Unix should be supported!**
+**Other Unix should be supported!**
 
 # Downloads
 
@@ -41,6 +40,7 @@ $ tuned-adm profile latency-performance
 | [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/download/v3.0-100hz/Kernelv3.0-LLY-100hz.zip) | 100HZ - Lowlatency Only |
 | [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/download/v3.1-100hz/100hz-nfp.zip)| 100HZ - NFP Only |
 | [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/download/vkp-kernel/vpk-kernel.zip) | 100HZ & 1000HZ - VKP Only |
+| [x.x.x](#) | Soon |
 
 ## What does NFP/LLY/VKP means?
 LLY => **Low-Latency** (Stable Tickrate & High Performance for your **GAMESERVER**)
