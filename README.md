@@ -42,6 +42,9 @@ $ tuned-adm profile latency-performance
 | [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/download/vkp-kernel/vpk-kernel.zip) | 100HZ & 1000HZ - VKP Only |
 | [x.x.x](#) | Soon |
 
+# Option Bonus:
+**Try test Liquorix kernel out!** [Liquorix.net](https://liquorix.net/)
+
 ## What does NFP/LLY/VKP means?
 LLY => **Low-Latency** (Stable Tickrate & High Performance for your **GAMESERVER**)
 
