@@ -1,7 +1,7 @@
 # GameServerKernel / Scripts
 This repo will be used for support/provide GameServerKernel for Linux - **1000HZ & 100HZ**
 
-**NOTE: This is most recommended for match/retake/scrim/pracc - and maybe 20 slots FFA.**
+**NOTE: This is most recommended for match/retake/scrim/pracc**
 
 **I don't have found fix with 25-32slots!** (16-11-2019)
 
@@ -29,7 +29,7 @@ $ tuned-adm profile latency-performance
 | Ubuntu | 19.04 |
 | Ubuntu | 19.10 |
 
-**Other Unix should be supported!**
+**Other Unix (version) should be supported!**
 
 # Downloads
 
