@@ -44,8 +44,9 @@ $ tuned-adm profile latency-performance
 | [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/download/v3.1-100hz/100hz-nfp.zip)| 100HZ - NFP Only |
 | [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/download/vkp-kernel/vpk-kernel.zip) | 100HZ & 1000HZ - VKP Only |
 
-# Option Bonus:
-**Try test Liquorix kernel out!** [Liquorix.net](https://liquorix.net/)
+# Options Bonus:
+**Liquorix's Kernel** [Liquorix.net](https://liquorix.net/)
+**XanMod's Kernel**[XanMod](https://xanmod.org/)
 
 ## What does NFP/LLY/VKP means?
 LLY => **Low-Latency** (Stable Tickrate & High Performance for your **GAMESERVER**)
