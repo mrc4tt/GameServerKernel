@@ -10,7 +10,7 @@ This repo will be used for support/provide GameServerKernel for Linux - **1000HZ
 
 **XanMod's Kernel**: [XanMod](https://xanmod.org/)
 
-## [config](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/config) - Rename to  ".config" on your server, if you want to compile your own kernel!
+**If you want to build your own kernel: [Build your own kernel](https://forums.alliedmods.net/showpost.php?p=2678711)
 
 [rates.cfg](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/rates.cfg)
 
