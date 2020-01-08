@@ -5,17 +5,15 @@ This repo will be used for support/provide GameServerKernel for Linux - **1000HZ
 
 **I don't have found fix with 25-32slots!** (16-11-2019)
 
-## Support:
-Post information/issues, if you have any problems on: [Create Issue](https://github.com/MikkelDK/GameServerKernel/issues/new) 
+### Options Bonus:
+**Liquorix's Kernel** [Liquorix.net](https://liquorix.net/)
+**XanMod's Kernel**[XanMod](https://xanmod.org/)
 
 ## [config](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/config) - Rename to  ".config" on your server, if you want to compile your own kernel!
 
-## Rates / Script to gameserver:
-(**This rates is for CSGO Server!**) - Test it out, it's recommend to test:
-[Rates is here](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/rates.cfg)
+[rates.cfg](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/rates.cfg)
 
-Script to your linuxserver:
-[/root/script.sh](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/script.sh) **//You don't NEED to use script.sh, if you are using: Liquroix's Kernel**
+[script.sh](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/script.sh)
 
 ```sh
 $ wget https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/script.sh && ./script.sh
@@ -43,10 +41,6 @@ $ tuned-adm profile latency-performance
 | [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/download/v3.0-100hz/Kernelv3.0-LLY-100hz.zip) | 100HZ - Lowlatency Only |
 | [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/download/v3.1-100hz/100hz-nfp.zip)| 100HZ - NFP Only |
 | [5.3.8](https://github.com/MikkelDK/GameServerKernel/releases/download/vkp-kernel/vpk-kernel.zip) | 100HZ & 1000HZ - VKP Only |
-
-# Options Bonus:
-**Liquorix's Kernel** [Liquorix.net](https://liquorix.net/)
-**XanMod's Kernel**[XanMod](https://xanmod.org/)
 
 ## What does NFP/LLY/VKP means?
 LLY => **Low-Latency** (Stable Tickrate & High Performance for your **GAMESERVER**)
