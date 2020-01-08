@@ -6,8 +6,9 @@ This repo will be used for support/provide GameServerKernel for Linux - **1000HZ
 **I don't have found fix with 25-32slots!** (16-11-2019)
 
 ### Options Bonus:
-**Liquorix's Kernel** [Liquorix.net](https://liquorix.net/)
-**XanMod's Kernel**[XanMod](https://xanmod.org/)
+**Liquorix's Kernel**: [Liquorix.net](https://liquorix.net/)
+
+**XanMod's Kernel**: [XanMod](https://xanmod.org/)
 
 ## [config](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/config) - Rename to  ".config" on your server, if you want to compile your own kernel!
 
