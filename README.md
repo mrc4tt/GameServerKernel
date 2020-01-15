@@ -1,14 +1,15 @@
 # GameServerKernel / Scripts
-This repo will be used for support/provide GameServerKernel for Linux - **1000HZ & 100HZ**
 
-**NOTE: This is most recommended for match/retake/scrim/pracc**
-
-**I don't have found fix with 25-32slots!** (16-11-2019)
-
-### Options Bonus:
+### NOT LONGER BEING UPDATED! (USE XANMOD OR LIQUORIX)
 **Liquorix's Kernel**: [Liquorix.net](https://liquorix.net/)
 
 **XanMod's Kernel**: [XanMod](https://xanmod.org/)
+
+This repo is provide GameServerKernel for Linux - **1000HZ & 100HZ**
+
+**NOTE: This is most recommended for match/retake/scrim/pracc (13 slots MAX)**
+
+**I don't have found fix with 25-32slots!** (16-11-2019)
 
 **If you want to build your own kernel: [Build your own kernel](https://forums.alliedmods.net/showpost.php?p=2678711)
 
