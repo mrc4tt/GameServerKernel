@@ -1,6 +1,5 @@
 # GameServerKernel / Scripts
 
-### NOT LONGER BEING UPDATED! (USE XANMOD OR LIQUORIX)
 **Liquorix's Kernel**: [Liquorix.net](https://liquorix.net/)
 
 **XanMod's Kernel**: [XanMod](https://xanmod.org/)
