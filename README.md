@@ -31,7 +31,8 @@ $ tuned-adm profile latency-performance
 
 **Other Unix (version) should be supported!**
 
-# Downloads - Updated: (22-01-2019 08:26am + CEST) - Old kernel has been removed!)
+# Downloads - Updated: (22-01-2019 08:26am + CEST) 
+- Old kernels has been removed!
 
 | Kernel | Information |
 | ------ | ------ |
