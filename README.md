@@ -8,6 +8,13 @@ This repo is provide GameServerKernel for Linux - **1000HZ & 100HZ**
 
 **I don't have found fix with 25-32slots!** (16-11-2019)
 
+### Grub CONFIG:
+```sh
+$ nano /etc/default/grub
+$ Look after: GRUB_CMDLINE_LINUX_DEFAULT=""
+$ Replace it with this: 
+$ GRUB_CMDLINE_LINUX_DEFAULT="quiet nohz=n mitigations=off splash intel_pstate=disable processor.max_cstate=1 intel_idle.max_cstate=0 idle=poll"
+```
 **If you want to build your own kernel: [Build your own kernel](https://forums.alliedmods.net/showpost.php?p=2678711)
 
 [rates.cfg](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/rates.cfg)
