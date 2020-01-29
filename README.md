@@ -36,7 +36,7 @@ $ tuned-adm profile latency-performance
 | Ubuntu | 19.04 |
 | Ubuntu | 19.10 |
 
-**Other Unix (version) should be supported!**
+**RPM Linux is NOT supported!**
 
 # Downloads - Updated: (22-01-2019 08:26am + CEST) 
 - Old kernels has been removed!
