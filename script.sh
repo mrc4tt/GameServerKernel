@@ -8,7 +8,7 @@ PROCESS_NAMES=(
 
 for pid in $(for executable in ${PROCESS_NAMES[@]}; do pgrep ${executable} ;done) ;do
   chrt -ar -p 98 $pid
-  renice 1 -p $pid
+  renice -19 -p $pid
 done
 
 # __________________________________________________________________________________________
