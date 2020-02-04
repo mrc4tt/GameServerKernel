@@ -13,7 +13,7 @@ $ Look after: GRUB_CMDLINE_LINUX_DEFAULT=""
 $ Replace it with this: 
 $ GRUB_CMDLINE_LINUX_DEFAULT="consoleblank=0 nohz=n mitigations=off intel_pstate=disable processor.max_cstate=1 intel_idle.max_cstate=0 idle=poll"
 ```
-**If you want to build your own kernel: [Build your own kernel](https://forums.alliedmods.net/showpost.php?p=2678711)
+**If you want to build your own kernel: [Build your own kernel](https://forums.alliedmods.net/showpost.php?p=2678711)**
 
 [rates.cfg](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/rates.cfg)
 
