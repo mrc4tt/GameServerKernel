@@ -44,7 +44,7 @@ $ tuned-adm profile latency-performance
 | [5.4.13](https://github.com/MikkelDK/GameServerKernel/releases/download/5.4.13/100hz.zip) | **NEW** 100HZ - No Force Preemption |
 | [5.4.13](https://github.com/MikkelDK/GameServerKernel/releases/download/5.4.13/1000hz.zip) | **NEW** 1000HZ - LowLatency |
 
-## What does NFP/LLY/VKP means?
+## What does LLY/NFP means?
 LLY => **Low-Latency** (Stable Tickrate & High Performance for your **GAMESERVER**)
 
 NFP => **No-Fored-Preemption** (Run as many gs you can as possible on your hardware!)
