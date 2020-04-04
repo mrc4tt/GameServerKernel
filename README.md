@@ -1,4 +1,5 @@
-# GameServerKernel / Scripts [THIS KERNEL SUPPORTING ONLY 16slots MAX!]
+# GameServerKernel / Scripts 
+# [Supporting only 16slots]
 
 # I have high sv/var (red)
 **You can't get low sv/var, if you are running 32slots server!**
