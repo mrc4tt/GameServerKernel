@@ -1,5 +1,5 @@
 # GameServerKernel / Scripts 
-# [Supporting only 16slots] // Not longer being updated! USE Liquorix, or create your own!
+### Not longer being updated! USE Liquorix, or create your own!
 
 I have high sv/var (red)
 **You can't get low sv/var, if you are running 32slots server!**
