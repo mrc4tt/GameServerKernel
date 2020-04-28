@@ -6,8 +6,6 @@ I have high sv/var (red)
 
 **Liquorix's Kernel**: [Liquorix.net](https://liquorix.net/)
 
-**XanMod's Kernel**: [XanMod](https://xanmod.org/)
-
 This repo is provide GameServerKernel for Linux - **1000HZ**
 
 ### GRUB CONFIG:
