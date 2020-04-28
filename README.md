@@ -1,5 +1,5 @@
 # GameServerKernel / Scripts 
-# [Supporting only 16slots]
+# [Supporting only 16slots] // Not longer being updated! USE Liquorix, or create your own!
 
 I have high sv/var (red)
 **You can't get low sv/var, if you are running 32slots server!**
@@ -53,5 +53,4 @@ NFP => **No-Fored-Preemption** (Run as many gs you can as possible on your hardw
 
 ## Screenshots of Net_Graphs:
 This is a example from a **LLY config** - It will be looks between: **0.000-0.005 VAR** (**With tuned-adm profile latency-performance**) - This is from Ryzen 7 3700X or i9-9900K **(This is tested for 5v5 servers & retake servers)**
-![screen](https://i.gyazo.com/c1d31dcfad0f616b7c66df09693a94c7.jpg)                                                    
-**Overall, depends CPU so it's _POSSIBLE_ to run 0.000-0.005 if it's match/retake/scrim servers!**
+![screen](https://i.gyazo.com/c1d31dcfad0f616b7c66df09693a94c7.jpg)
