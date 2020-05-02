@@ -1,14 +1,12 @@
 #!/bin/bash
 # __________________________________________________________________________________________
-# ******  Priority Servers. - ( Add other Server Process names, u can add here.) ***********
 PROCESS_NAMES=(
-  srcds_run
   srcds_linux
 );
 
 for pid in $(for executable in ${PROCESS_NAMES[@]}; do pgrep ${executable} ;done) ;do
   chrt -ar -p 98 $pid
-  renice -19 -p $pid
+  renice 1 -p $pid
 done
 
 # __________________________________________________________________________________________
@@ -21,7 +19,8 @@ done
 # __________________________________________________________________________________________
 # ****** ksoftirqd scheduling Optimizer for RT KERNEL. - ( ) *******************************
 for pid in $(pgrep ksoftirqd); do
-  chrt -r -p 50 $pid
+  chrt -ar -p 50 $pid
+  renice -1 -p $pid
 done
 
 # __________________________________________________________________________________________
@@ -34,5 +33,13 @@ done
 # __________________________________________________________________________________________
 # ****** TOP Process Optimizer for RT KERNEL. - ( ) ****************************************
 for pid in $(pidof top); do
-  chrt -af -p 54 $pid
+  chrt -ar -p 54 $pid
+  renice 0 -p $pid
+done
+
+# __________________________________________________________________________________________
+# ****** kswapd0 scheduling Optimizer for RT KERNEL. - ( ) *********************************
+for pid in $(pgrep kswapd0); do
+  chrt -af -p 64 $pid
+  renice 0 -p $pid
 done
