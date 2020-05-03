@@ -7,22 +7,8 @@ I have high sv/var (red)
 
 **Liquorix's Kernel**: [Liquorix.net](https://liquorix.net/)
 
-This repo is provide GameServerKernel for Linux - **1000HZ**
+This repo is provide GameServerKernel/Scripts(Tips) for Linux - **1000HZ**
 
-### GRUB CONFIG for Intel:
-```sh
-$ nano /etc/default/grub
-$ Look after: GRUB_CMDLINE_LINUX_DEFAULT=""
-$ Replace it with this: 
-$ GRUB_CMDLINE_LINUX_DEFAULT="consoleblank=0 intel_pstate=disable processor.max_cstate=1 intel_idle.max_cstate=0 idle=poll"
-```
-### GRUB CONFIG for AMD:
-```sh
-$ nano /etc/default/grub
-$ Look after: GRUB_CMDLINE_LINUX_DEFAULT=""
-$ Replace it with this: 
-$ GRUB_CMDLINE_LINUX_DEFAULT="consoleblank=0"
-```
 **If you want to build your own kernel: [Build your own kernel](https://forums.alliedmods.net/showpost.php?p=2678711)**
 
 [rates.cfg](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/rates.cfg)
