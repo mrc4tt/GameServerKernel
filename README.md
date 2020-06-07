@@ -10,8 +10,6 @@ I have high sv/var (red)
 
 **Liquorix's Kernel**: [Liquorix.net](https://liquorix.net/)
 
-This repo is provide GameServerKernel/Scripts(Tips) for Linux - **1000HZ**
-
 **If you want to build your own kernel: [Build your own kernel](https://forums.alliedmods.net/showpost.php?p=2678711)**
 
 [rates.cfg](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/rates.cfg)
