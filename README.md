@@ -1,5 +1,6 @@
 # GameServerKernel / Scripts 
-### Not longer being updated! USE Liquorix, or create your own!
+### OUTDATED! - Please use Liquorix/XanMod OR create your own kernel!
+### Not longer updated! (**Disconnected!**)
 
 I have high sv/var (red)
 **You can't get low sv/var, if you are running 32slots server!**
@@ -31,14 +32,6 @@ $ tuned-adm profile latency-performance
 | Ubuntu | 19.10 |
 
 **RPM Linux is NOT supported!**
-
-# Downloads - Updated: (22-01-2019 08:26am + CEST) 
-- Old kernels has been removed!
-
-| Kernel | Information |
-| ------ | ------ |
-| [5.4.13](https://github.com/MikkelDK/GameServerKernel/releases/download/5.4.13/100hz.zip) | **NEW** 100HZ - No Force Preemption |
-| [5.4.13](https://github.com/MikkelDK/GameServerKernel/releases/download/5.4.13/1000hz.zip) | **NEW** 1000HZ - LowLatency |
 
 ## What does LLY/NFP means?
 LLY => **Low-Latency** (Stable Tickrate & High Performance for your **GAMESERVER**)
