@@ -1,18 +1,15 @@
 # GameServerKernel
-### OUTDATED! - Please use Liquorix/XanMod OR create your own kernel!
-### Not longer updated! (**Disconnected!**)
+### (**Will be back soon around february/march**)
 
 I have high sv/var (red)
 
 **You can't get low sv/var, if you are running 32slots server!** // **Try overclock your server.**
 
-**Liquorix's Kernel**: [Liquorix.net](https://liquorix.net/)
-
-**If you want to build your own kernel: [Build your own kernel](https://forums.alliedmods.net/showpost.php?p=2678711)**
+(**Optional, if you want to learn build kernel**): [Build your own kernel](https://forums.alliedmods.net/showpost.php?p=2678711)**
 
 [rates.cfg](https://raw.githubusercontent.com/MikkelDK/GameServerKernel/master/rates.cfg)
 
-//**TUNED (I'M NOT LONGER USE IT! - YOUR OWN RISK!)**
+//**TUNED**
 ```sh
 $ apt-get install tuned
 $ tuned-adm profile latency-performance
