@@ -1,4 +1,5 @@
 # GameServerKernel
+[![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://GitHub.com/MikkelDK/GameServerKernel/releases/)
 
 I have high sv/var (red)
 
