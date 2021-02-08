@@ -1,5 +1,4 @@
 # GameServerKernel
-### (**Will be back soon around february/march**)
 
 I have high sv/var (red)
 
