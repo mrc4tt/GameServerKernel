@@ -13,8 +13,7 @@ I have high sv/var (red)
 
 //**TUNED**
 ```sh
-$ apt-get install tuned
-$ tuned-adm profile latency-performance
+apt-get install tuned -y && tuned-adm profile latency-performance
 ```
 
 ## Unix Support:
