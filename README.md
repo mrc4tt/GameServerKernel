@@ -4,6 +4,7 @@
 I have high sv/var (red)
 
 **You can't get low sv/var, if you are running 32slots server!** // **Try overclock your server.**
+**You can't get low sv/var, if you are using this kernel!**
 
 (**Optional, if you want to learn build kernel**): [Build your own kernel](https://forums.alliedmods.net/showpost.php?p=2678711)
 
