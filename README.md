@@ -1,7 +1,9 @@
 # GameServerKernel
 [![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://GitHub.com/MikkelDK/GameServerKernel/releases/)
 
-# **You can't get low sv/var, if you are using this kernel!**
+**Are you using DO, Google Cloud, or AWS?**: This can't help you 100% with low sv/var.
+
+# **You can't get low sv/var if you are using this kernel - Unless you using a good CPU.**
 
 I have high sv/var (red)
 
