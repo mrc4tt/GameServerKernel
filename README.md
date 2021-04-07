@@ -1,5 +1,4 @@
 # GameServerKernel
-[![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/MikkelDK/GameServerKernel/releases/tag/v5.11.4)
 
 **Are you using DO, Google Cloud, or AWS?**: This can't help you 100% with low sv/var.
 
