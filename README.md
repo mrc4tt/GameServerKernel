@@ -2,11 +2,9 @@
 
 **Are you using DO, Google Cloud, or AWS?**: This can't help you 100% with low sv/var.
 
-# **You can't get low sv/var if you are using this kernel - Unless you using a good CPU.**
+# **You can't get low sv/var if you are using this kernel.**
 
-I have high sv/var (red)
-
-**You can't get low sv/var, if you are running 32slots server!** // **Try overclock your server.**
+**I can't help you with getting low sv/var - I do not offer support!**
 
 (**Optional, if you want to learn build kernel**): [Build your own kernel](https://forums.alliedmods.net/showpost.php?p=2678711)
 
