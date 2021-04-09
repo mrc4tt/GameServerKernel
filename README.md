@@ -24,7 +24,7 @@ apt-get install tuned -y && tuned-adm profile latency-performance
 
 **RPM Linux is NOT supported!**
 
-## What does LLY/NFP means?
+## What does LLY means?
 LLY => **Low-Latency** (Stable Tickrate & High Performance for your **GAMESERVER**)
 
 ## Screenshots of Net_Graphs:
