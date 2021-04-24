@@ -2,8 +2,6 @@
 
 **Are you using DO, Google Cloud, or AWS?**: This can't help you 100% with low sv/var.
 
-# **You can't get low sv/var if you are using this kernel.**
-
 **I can't help you with getting low sv/var - I do not offer support!**
 
 (**Optional, if you want to learn build kernel**): [Build your own kernel](https://forums.alliedmods.net/showpost.php?p=2678711)
@@ -14,6 +12,14 @@
 ```sh
 apt-get install tuned -y && tuned-adm profile latency-performance
 ```
+
+## Recommend CPU System:
+| CPU |
+| Ryzen 9 3900X |
+| Ryzen 9 5900X |
+| Ryzen 9 5950X |
+| Ryzen 9 3950X |
+| i9-9900K |
 
 ## Unix Support:
 | OS | Version |
