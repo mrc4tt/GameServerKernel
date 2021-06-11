@@ -17,9 +17,10 @@ apt-get install tuned -y && tuned-adm profile latency-performance
 | CPU | Which? |
 | ------ | ------ |
 | Ryzen | 9 3900X |
+| Ryzen | 9 3950X |
+| Ryzen | 9 5800X |
 | Ryzen | 9 5900X |
 | Ryzen | 9 5950X |
-| Ryzen | 9 3950X |
 | Intel | i9-9900K |
 
 ## Unix Support:
