@@ -1,6 +1,6 @@
 # GameServerKernel with LLY-Config
 
-**Are you using DO, Google Cloud, or AWS?**: This can't help you 100% with low sv/var.
+**Are you using DO, Google Cloud, AWS or VPS**: This can't help you 100% with low sv/var.
 
 **I can't help you with getting low sv/var - I do not offer support!**
 
