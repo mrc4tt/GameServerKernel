@@ -2,7 +2,8 @@
 
 **Are you using DO, Google Cloud, AWS or VPS**: This can't help you 100% with low sv/var.
 
-**I can't help you with getting low sv/var - I do not offer support!**
+**Custom Kernel does not always give stable gameserver!**
+**Custom Kernel does not always give high-performance!**
 
 (**Optional, if you want to learn build kernel**): [Build your own kernel](https://forums.alliedmods.net/showpost.php?p=2678711)
 
