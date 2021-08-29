@@ -14,6 +14,9 @@ Processor type and features
 General Setup --->
      Preemption Model -->
                       No Forced Preemption (Server)
+                      
+                      OR
+                      
                       Preemptible Kernel (Low-Latency Desktop)
 ```
 
