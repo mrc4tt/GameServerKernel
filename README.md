@@ -2,8 +2,6 @@
 
 **IMPORTANT**
 ```
-This repo are not longer updated, and I will not longer setup new kernel-versions.
-
 If you wanna run stable gameserver; I will recommend you're using Dedicated Server (VPS ARE NOT RECOMMENDED).
 ```
 
