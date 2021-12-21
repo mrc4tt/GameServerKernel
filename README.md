@@ -3,6 +3,7 @@
 **IMPORTANT**
 ```
 ⚠️VPS (LXC/KVM) is NOT recommended! - Do not try use this kernel for your VPS⚠️
+⚠️There is no guarantee that this will work on your server. No liability is taken if your server does not boot again.⚠️
 ```
 
 ```
