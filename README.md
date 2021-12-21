@@ -1,8 +1,8 @@
-# GameServerKernel with LLY-Config
+# GameServerKernel
 
 **IMPORTANT**
 ```
-If you wanna run stable gameserver; I will recommend you're using Dedicated Server (VPS ARE NOT RECOMMENDED).
+VPS (LXC/KVM) is NOT recommended! - Do not try use this kernel for your VPS
 ```
 
 ```
