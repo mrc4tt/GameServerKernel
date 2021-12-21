@@ -2,7 +2,7 @@
 
 **IMPORTANT**
 ```
-VPS (LXC/KVM) is NOT recommended! - Do not try use this kernel for your VPS
+⚠️VPS (LXC/KVM) is NOT recommended! - Do not try use this kernel for your VPS⚠️
 ```
 
 ```
@@ -15,7 +15,7 @@ Custom Kernel does not always give high-performance!
 ```
 Processor type and features
 [*] CPU Frequency scaling
-     Timer frequency (xxx Hz) ---> 1 000 Hz
+     Timer frequency (xxx Hz) ---> 1000 Hz
 General Setup --->
      Preemption Model -->
                       No Forced Preemption (Server)
