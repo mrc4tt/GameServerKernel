@@ -14,6 +14,7 @@ Custom Kernel does not always give stable gameserver!
 Custom Kernel does not always give high-performance!
 ```
 (**Optional if this kernel does not work for you. Take a look over at**): [Liquorix Kernel](https://liquorix.net/)
+
 (**Optional if you want to learn to build kernel**): [Build your own kernel](https://forums.alliedmods.net/showpost.php?p=2678711)
 
 ```
